@@ -1,0 +1,31 @@
+.color-example {
+    color: lightgreen;
+    background-color: #7200ff;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.header-example {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;  
+    color: red;
+}
+
+.list-example {
+    list-style-type: disc;
+    color: brown;
+}
+
+.text-example {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.div-example {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+}
