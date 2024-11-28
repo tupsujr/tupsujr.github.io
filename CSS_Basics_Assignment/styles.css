@@ -31,7 +31,7 @@
 }
 
 
-/*This is where module 4 begins!!*/
+/*This is where module 4 & 5 begin!!*/
 
 body {
     background-color: #E6E6FA;
@@ -55,10 +55,8 @@ h1 {
 .reference {
     list-style-type: none;
     line-height: 200%;
+    padding: 0;
 }
-
-
-
 
 h3 {
     color: #191970;
@@ -141,5 +139,34 @@ ul {
     /* added in module 5*/
     background-color: #AEAED4;
     text-align: center;
-    padding-bottom: 15px;
+}
+
+
+/*Module 6 stuff*/
+
+.nav-side {
+    float: left;
+    text-align: left;
+    width: 30%;
+    height: 525px;
+    background: #ccc;
+    padding: 20px;
+    list-style-type: none;
+}
+
+#article {
+    float: right;
+    padding: 20px;
+    width: 60%;
+    height: 475px;
+}
+
+.three::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.reference:hover a{
+    color: red;
 }
