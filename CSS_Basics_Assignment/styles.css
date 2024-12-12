@@ -1,0 +1,172 @@
+.color-example {
+    color: lightgreen;
+    background-color: #7200ff;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.header-example {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    color: red;
+}
+
+.list-example {
+    list-style-type: disc;
+    color: brown;
+}
+
+.text-example {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.div-example {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+}
+
+
+/*This is where module 4 & 5 begin!!*/
+
+body {
+    background-color: #E6E6FA;
+    color: #191970;
+    font-family: Arial, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+
+
+h1 {
+    color: #E6E6FA;
+    line-height: 200%;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+
+.reference {
+    list-style-type: none;
+    line-height: 200%;
+    padding: 0;
+}
+
+h3 {
+    color: #191970;
+    font-family: Georgia, "Times New Roman", serif;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: .90em;
+    text-indent: 3em;
+}
+
+ul {
+    font-weight: bold;
+}
+
+.bar-border {
+    background-color: darkgray;
+    border-style: solid;
+    border-color: black;
+}
+
+.bar {
+    text-align: center;
+    color: white;
+    width: 50%;
+    background-color: lightgreen;
+}
+
+
+.photo-andtext {
+    /* added in module 5 */
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: 200px 200px;
+    column-gap: 50px;
+    margin: auto;
+    width: 50%;
+}
+
+
+.h-withborder {
+    /* added as part of module 4*/
+    border: 4px dotted black;
+}
+
+.p-withborder {
+    /* added as part of module 4*/
+    border-width: thin;
+    border-style: dotted;
+    border-color: black;
+	background-color: lightgreen;
+	border-radius: 5px;
+
+}
+
+.div-halfwide {
+    /* added as part of module 4*/
+    width: 50%;
+    margin: auto;
+
+}
+
+#header {
+    /* added in module 5*/
+    background-color: #191970;
+    padding-bottom: 5px;
+}
+
+#nav {
+    /* added in module 5*/
+    background-color: aliceblue;
+    width: 33%;
+}
+
+
+#section {
+    /* added in module 5*/
+    background-color: #AEAED4;
+    text-align: center;
+}
+
+
+/*Module 6 stuff*/
+
+.nav-side {
+    float: left;
+    text-align: left;
+    width: 30%;
+    height: 525px;
+    background: #ccc;
+    padding: 20px;
+    list-style-type: none;
+}
+
+#article {
+    float: right;
+    padding: 20px;
+    width: 60%;
+    height: 475px;
+}
+
+.three::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.reference:hover a{
+    color: red;
+}
